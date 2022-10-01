@@ -1,3 +1,4 @@
+#include <stdio.h>
 /**
  *main - print de alphabet in lowercase except q and e
  *
