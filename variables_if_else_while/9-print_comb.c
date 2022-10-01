@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- *main - print comb
+ *main - prints all posibble combinations of single-digit
  *
  *Return: 0
  */
@@ -16,7 +16,8 @@ int main(void)
 			putchar(',');
 			putchar(' ');
 		}
+	}
 	putchar('\n');
 	return (0);
-	}
+	
 }
