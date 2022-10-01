@@ -5,7 +5,7 @@
  *Return: 0
  */
 int main(void)
-{i
+{
 	int n = '0';
 
 	for (; n <= '9' ; n++)
