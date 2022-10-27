@@ -2,7 +2,7 @@
 #define DOG_H
 
 /**
-  * struct dog -dDescription of a dog.
+  * struct dog -description of a dog.
   * @name: name of a dog.
   * @owner: owner of a dog.
   * @age: age of a dog.
@@ -23,4 +23,4 @@ dog_t *new_dog(char *name, float age, char *owner);
 char *_strdup(char *str);
 void free_dog(dog_t *d);
 #endif
-i
+
