@@ -9,19 +9,19 @@
 
 void print_dog(struct dog *d)
 {
-	if (d->name != NULL)
-	{
-		printf("Name: %s\n", d->name);
-	}
-		printf("Name: (nil)\n");
+	if (d != NULL)
 
-	if (d->age != 0)
 	{
-		printf("Age: %.1f\n", d->age);
+		printf("Name: %s\n", (d->name) ? d->name : "(nil)");
+		printf("Age: %f\n", (d->age) ? d->age : 0);
+		printf("Owner %s\n", (d->owner) ? d->owner : "(nil)");
 	}
-
-	if (d->owner != NULL)
-	{
-		printf("Owner: %s\n", d->owner);
-	}
+/**
+ * conditional operator '?:'
+ * If the condition ( Expression1 ) is True, then Expression2 will be
+ * executed and the result will be returned. Otherwise,
+ * if the condition ( Expression1 ) is false,
+ * then Expression3 will be executed and the
+ * result will be returned.
+ */
 }
