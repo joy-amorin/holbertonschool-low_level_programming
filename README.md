@@ -57,4 +57,4 @@ Parametros de con versión:
 The code will be compiled this way:
 $ gcc -Wall -Werror -Wextra -pedantic -std=gnu89 -Wno-format *.c
 
-<img src="https://miro.com/app/board/uXjVPHxZEuA=/">                                 
+<iframe width="768" height="432" src="https://miro.com/app/live-embed/uXjVPHxZEuA=/?moveToViewport=-1646,-1901,3723,1750&embedId=217107168128" frameborder="0" scrolling="no" allowfullscreen></iframe>                           
