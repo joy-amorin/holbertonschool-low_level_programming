@@ -9,12 +9,27 @@ Parametros de con versión.
 	<th>type</th>
 	<th>description</th>
 	</tr>
-	</table>
-%c	prints a chacarcter
-%s	prints a string
-%d	prints a decimal
-%i	prints an integer
-%%	prints '%'
+	<tr>
+	<td>%c</td>
+	<td>Prints a character</td>
+	</tr>
+	<tr>
+	<td>%s</td>
+	<td>Prints a string</td>
+	</tr>
+	<tr>
+	<td>%d</td>
+	<td>Prints a decimal</td>
+	</tr>
+	<tr>
+	<td>%s</td>
+	<td>Prints an integer</td>
+	</tr>
+	<tr>
+	<td>%%</td>
+	<td>Prints '%'</td>
+	</tr>
+</table>
 
 <h2>Requirments</h2>
 
