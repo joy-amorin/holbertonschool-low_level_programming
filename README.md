@@ -56,5 +56,5 @@ Parametros de con versión:
 
 The code will be compiled this way:
 $ gcc -Wall -Werror -Wextra -pedantic -std=gnu89 -Wno-format *.c
-
-<iframe width="768" height="432" src="https://miro.com/app/live-embed/uXjVPHxZEuA=/?moveToViewport=-1646,-1901,3723,1750&embedId=217107168128" frameborder="0" scrolling="no" allowfullscreen></iframe>                           
+                          
+![Diagrama de flujo Printf (1)](https://user-images.githubusercontent.com/113919575/201539379-22746f9f-9d7a-4652-9a0c-8c1fb994e3c4.jpg)
