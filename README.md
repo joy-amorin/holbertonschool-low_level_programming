@@ -3,7 +3,7 @@
 Este proyecto consiste en crear una version reducida de printf, con solo algunos parametros de conversión.
 Es el primer proyecto en grupo del programa intensivo de Holberton School.
 
-Parametros de con versión. 
+Parametros de con versión:
 <table>
 	<tr>
 	<th>type</th>
@@ -22,7 +22,7 @@ Parametros de con versión.
 	<td>Prints a decimal</td>
 	</tr>
 	<tr>
-	<td>%s</td>
+	<td>%i</td>
 	<td>Prints an integer</td>
 	</tr>
 	<tr>
@@ -32,25 +32,29 @@ Parametros de con versión.
 </table>
 
 <h2>Requirments</h2>
-
--Allowed editors: vi, vim, emacs
--All your files will be compiled on Ubuntu 20.04 LTS using gcc, using the options -Wall -Werror -Wextra -pedantic -std=gnu89
--All your files should end with a new line
--Your code should use the Betty style. It will be checked using betty-style.pl and betty-doc.pl
--You are not allowed to use global variables
--No more than 5 functions per file
+<ul>
+<li>Allowed editors: vi, vim, emacs</li>
+<li>All your files should end with a new line</li>
+<li>Your code should use the Betty style. It will be checked using betty-style.pl and betty-doc.pl</li>
+<li>You are not allowed to use global variables</li>
+<li>No more than 5 functions per file</li>
+</ul>
 
 <h2>Authorized functions and macros</h2>
 
--write (man 2 write)
--malloc (man 3 malloc)
--free (man 3 free)
--va_start (man 3 va_start)
--va_end (man 3 va_end)
--va_copy (man 3 va_copy)
--va_arg (man 3 va_arg)
+<ul>
+<li>write (man 2 write)</li>
+<li>malloc (man 3 malloc)</li>
+<li>free (man 3 free)</li>
+<li>va_start (man 3 va_start)
+<li>va_end (man 3 va_end)</li>
+<li>va_copy (man 3 va_copy)</li>
+<li>va_arg (man 3 va_arg)</li>
+</ul>
 
 <h2>Compilation</h2>
 
 The code will be compiled this way:
-$ gcc -Wall -Werror -Wextra -pedantic -std=gnu89 -Wno-format *.c                                       
+$ gcc -Wall -Werror -Wextra -pedantic -std=gnu89 -Wno-format *.c
+
+<img src="https://miro.com/app/board/uXjVPHxZEuA=/">                                 
