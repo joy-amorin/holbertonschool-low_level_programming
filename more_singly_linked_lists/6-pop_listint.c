@@ -12,24 +12,19 @@
 int pop_listint(listint_t **head)
 {
 	listint_t *current = *head;
-	listint_t *previous = NULL;
 	int n = 0;
 
-	while ((current != NULL) && (current->n != (*head)->n))
-	{
-		previous = current;
-		current = current->next;
-	}
-	if (current == NULL)
+
+	if (*head == NULL)
 		return (0);
 
-	if (*head == current)
+	if (*head != NULL)
 	{
-		*head = current->next;
-		n = current->n;
+		n = (*head)->n;
+		*head = (*head)->next;
+		free(current);
 	}
-	else
-		previous->next = current->next;
+
 	return (n);
-	free(current);
+
 }
