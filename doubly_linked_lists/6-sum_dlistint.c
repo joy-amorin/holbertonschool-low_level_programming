@@ -1,7 +1,7 @@
 #include "lists.h"
 
 /**
-* sum_listint - sum of all the data (n) of a linked list
+* sum_dlistint - sum of all the data (n) of a linked list
 * @head: pointera to head list
 *
 * Return: returns the sum of all the data (n), 0 if the list is empty
